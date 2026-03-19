@@ -1,5 +1,6 @@
 interface {
   provides buses_used [Nat]
+  provides economic_parameters [`economic_parameters]
   requires drivers [Nat]
   requires driver_cost [USD]
 }

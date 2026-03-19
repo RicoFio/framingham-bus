@@ -5,6 +5,8 @@ mcdp {
   requires total_cost [USD]
   requires emissions [kg]
 
+  sub economic_defaults = instance `economic_defaults
+  sub routing_policy_defaults = instance `routing_policy_defaults
   sub fuel = instance `fuel
   sub driver = instance `driver
   sub monitor = instance `monitor
@@ -12,9 +14,22 @@ mcdp {
   sub maintenance = instance `maintenance
   sub fleet = instance `fleet
 
+  econ = economic_parameters provided by economic_defaults
+  policy = routing_policy_parameters provided by routing_policy_defaults
+
   # Coarse consistency constraints for the aggregated route measures.
   (provided route_measures).monitor_buses <= (provided route_measures).buses_used
   (provided route_measures).buses_used <= (provided route_measures).rounds_used
+  (provided route_measures).rounds_used <= (
+    (policy).max_rounds_per_bus * (provided route_measures).buses_used
+  )
+
+  economic_parameters provided by fuel >= econ
+  economic_parameters provided by driver >= econ
+  economic_parameters provided by monitor >= econ
+  economic_parameters provided by rounds >= econ
+  economic_parameters provided by maintenance >= econ
+  economic_parameters provided by fleet >= econ
 
   distance provided by fuel >= (provided route_measures).distance
   distance provided by maintenance >= (provided route_measures).distance

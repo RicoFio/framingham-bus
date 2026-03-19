@@ -1,0 +1,15 @@
+mcdp {
+  implements `economic_parameters_interface
+
+  (provided economic_parameters).fuel_cost_per_km <= 0.60 USD / km
+  (provided economic_parameters).emissions_per_km <= 1.20 kg / km
+  (provided economic_parameters).driver_cost_per_bus <= 50000 USD
+  (provided economic_parameters).monitor_cost_per_bus <= 20000 USD
+  (provided economic_parameters).round_penalty_per_round <= 1 USD
+  (provided economic_parameters).maintenance_cost_per_km <= 0.15 USD / km
+  (provided economic_parameters).maintenance_cost_per_round <= 5 USD
+  (provided economic_parameters).capital_cost_dp_c <= 50000 USD
+  (provided economic_parameters).capital_cost_dp_b <= 70000 USD
+  (provided economic_parameters).capital_cost_dp_wc <= 80000 USD
+  (provided economic_parameters).capital_cost_dp_bwc <= 90000 USD
+}

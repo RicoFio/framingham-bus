@@ -1,0 +1,13 @@
+product(
+  fuel_cost_per_km: USD / km,
+  emissions_per_km: kg / km,
+  driver_cost_per_bus: USD,
+  monitor_cost_per_bus: USD,
+  round_penalty_per_round: USD,
+  maintenance_cost_per_km: USD / km,
+  maintenance_cost_per_round: USD,
+  capital_cost_dp_c: USD,
+  capital_cost_dp_b: USD,
+  capital_cost_dp_wc: USD,
+  capital_cost_dp_bwc: USD
+)

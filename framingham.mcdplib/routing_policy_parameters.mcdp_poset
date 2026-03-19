@@ -1,0 +1,9 @@
+product(
+  max_rounds_per_bus: Nat,
+  boarding_time_per_student: min,
+  alighting_time_per_student: min,
+  max_ride_time: min,
+  school_arrival_slack: min,
+  time_separation: min,
+  coverage_ratio: dimensionless
+)

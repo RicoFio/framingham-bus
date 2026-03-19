@@ -1,0 +1,12 @@
+mcdp {
+  implements `routing_policy_parameters_interface
+
+  # Defaults reflect the current toy Formulation 3 setup.
+  (provided routing_policy_parameters).max_rounds_per_bus <= 2
+  (provided routing_policy_parameters).boarding_time_per_student <= 0.3 min
+  (provided routing_policy_parameters).alighting_time_per_student <= 0.5 min
+  (provided routing_policy_parameters).max_ride_time <= 60 min
+  (provided routing_policy_parameters).school_arrival_slack <= 10 min
+  (provided routing_policy_parameters).time_separation <= 0 min
+  (provided routing_policy_parameters).coverage_ratio <= 1
+}

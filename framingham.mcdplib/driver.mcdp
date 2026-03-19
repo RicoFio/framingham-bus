@@ -1,8 +1,8 @@
 mcdp {
   implements `driver_interface
 
-  constant cost_per_driver = 50000 USD
-
   required drivers >= provided buses_used
-  required driver_cost >= cost_per_driver * provided buses_used
+  required driver_cost >= (
+    (provided economic_parameters).driver_cost_per_bus * provided buses_used
+  )
 }
