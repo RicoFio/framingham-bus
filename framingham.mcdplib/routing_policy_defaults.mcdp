@@ -1,7 +1,6 @@
 mcdp {
   implements `routing_policy_parameters_interface
 
-  # Defaults reflect the current toy Formulation 3 setup.
   (provided routing_policy_parameters).max_rounds_per_bus <= 2
   (provided routing_policy_parameters).boarding_time_per_student <= 0.3 min
   (provided routing_policy_parameters).alighting_time_per_student <= 0.5 min
