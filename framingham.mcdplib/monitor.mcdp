@@ -1,3 +1,8 @@
 mcdp {
+    provides monitor [Nat]
+    requires salary [$]
     
+    constant α = 20000 USD
+    
+    required salary ≥ provided monitor * α
 }
