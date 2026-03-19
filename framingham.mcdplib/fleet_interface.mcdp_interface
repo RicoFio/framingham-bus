@@ -1,0 +1,5 @@
+interface {
+  provides fleet_composition [`fleet_composition]
+  provides buses_used [Nat]
+  requires capital_cost [USD]
+}

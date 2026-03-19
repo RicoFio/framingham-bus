@@ -1,0 +1,4 @@
+interface {
+  provides rounds_used [Nat]
+  requires round_penalty [USD]
+}

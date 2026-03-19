@@ -1,0 +1,7 @@
+mcdp {
+  implements `rounds_interface
+
+  constant round_penalty_per_round = 1 USD
+
+  required round_penalty >= round_penalty_per_round * provided rounds_used
+}

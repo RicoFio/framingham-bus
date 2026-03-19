@@ -1,8 +1,8 @@
 mcdp {
-    provides monitor [Nat]
-    requires salary [$]
-    
-    constant α = 20000 USD
-    
-    required salary ≥ provided monitor * α
+  implements `monitor_interface
+
+  constant cost_per_monitor = 20000 USD
+
+  required monitors >= provided monitor_buses
+  required monitor_cost >= cost_per_monitor * provided monitor_buses
 }

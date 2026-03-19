@@ -1,8 +1,8 @@
 mcdp {
-    provides drivers [Nat]
-    requires salary [$]
-    
-    constant α = 50000 USD
-    
-    required salary ≥ provided drivers * α
+  implements `driver_interface
+
+  constant cost_per_driver = 50000 USD
+
+  required drivers >= provided buses_used
+  required driver_cost >= cost_per_driver * provided buses_used
 }
