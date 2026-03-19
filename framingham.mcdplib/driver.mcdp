@@ -1,0 +1,8 @@
+mcdp {
+    provides drivers [Nat]
+    requires salary [$]
+    
+    constant α = 50000 USD
+    
+    required salary ≥ provided drivers * α
+}
