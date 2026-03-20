@@ -6,6 +6,7 @@ mcdp {
 
   requires total_cost [USD]
   requires emissions [kg]
+  requires round_penalty [USD]
 
   sub fuel = instance `fuel
   sub driver = instance `driver
@@ -28,9 +29,9 @@ mcdp {
     fuel_cost required by fuel +
     driver_cost required by driver +
     monitor_cost required by monitor +
-    round_penalty required by rounds +
     maintenance_cost required by maintenance +
     capital_cost required by fleet
   )
   required emissions >= emissions required by fuel
+  required round_penalty >= round_penalty required by rounds
 }

@@ -11,4 +11,5 @@ query:
   max_r:
     total_cost: "10000000 USD"
     emissions: "100000 kg"
+    round_penalty: "100000 USD"
   optimize_for: [total_cost]
