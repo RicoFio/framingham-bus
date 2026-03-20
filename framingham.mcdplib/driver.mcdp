@@ -3,6 +3,6 @@ mcdp {
 
   required drivers >= provided buses_used
   required driver_cost >= (
-    (provided economic_parameters).driver_cost_per_bus * provided buses_used
+    (required economic_parameters).driver_cost_per_bus * provided buses_used
   )
 }

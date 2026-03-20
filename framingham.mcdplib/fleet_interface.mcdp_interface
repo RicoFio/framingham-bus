@@ -1,6 +1,6 @@
 interface {
   provides fleet_composition [`fleet_composition]
   provides buses_used [Nat]
-  provides economic_parameters [`economic_parameters]
+  requires economic_parameters [`economic_parameters]
   requires capital_cost [USD]
 }

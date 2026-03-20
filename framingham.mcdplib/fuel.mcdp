@@ -2,9 +2,9 @@ mcdp {
   implements `fuel_interface
 
   required fuel_cost >= (
-    (provided economic_parameters).fuel_cost_per_km * provided distance
+    (required economic_parameters).fuel_cost_per_km * provided distance
   )
   required emissions >= (
-    (provided economic_parameters).emissions_per_km * provided distance
+    (required economic_parameters).emissions_per_km * provided distance
   )
 }

@@ -14,32 +14,30 @@ mcdp {
   sub maintenance = instance `maintenance
   sub fleet = instance `fleet
 
-  econ = economic_parameters provided by economic_defaults
-  policy = routing_policy_parameters provided by routing_policy_defaults
-
   # Coarse consistency constraints for the aggregated route measures.
-  (provided route_measures).monitor_buses <= (provided route_measures).buses_used
-  (provided route_measures).buses_used <= (provided route_measures).rounds_used
-  (provided route_measures).rounds_used <= (
-    (policy).max_rounds_per_bus * (provided route_measures).buses_used
+  take(provided route_measures, monitor_buses) <= take(provided route_measures, buses_used)
+  take(provided route_measures, buses_used) <= take(provided route_measures, rounds_used)
+  take(provided route_measures, rounds_used) <= (
+    take(routing_policy_parameters provided by routing_policy_defaults, max_rounds_per_bus) *
+    take(provided route_measures, buses_used)
   )
 
-  economic_parameters provided by fuel >= econ
-  economic_parameters provided by driver >= econ
-  economic_parameters provided by monitor >= econ
-  economic_parameters provided by rounds >= econ
-  economic_parameters provided by maintenance >= econ
-  economic_parameters provided by fleet >= econ
+  economic_parameters required by fuel <= economic_parameters provided by economic_defaults
+  economic_parameters required by driver <= economic_parameters provided by economic_defaults
+  economic_parameters required by monitor <= economic_parameters provided by economic_defaults
+  economic_parameters required by rounds <= economic_parameters provided by economic_defaults
+  economic_parameters required by maintenance <= economic_parameters provided by economic_defaults
+  economic_parameters required by fleet <= economic_parameters provided by economic_defaults
 
-  distance provided by fuel >= (provided route_measures).distance
-  distance provided by maintenance >= (provided route_measures).distance
-  rounds_used provided by maintenance >= (provided route_measures).rounds_used
-  buses_used provided by driver >= (provided route_measures).buses_used
-  monitor_buses provided by monitor >= (provided route_measures).monitor_buses
-  rounds_used provided by rounds >= (provided route_measures).rounds_used
+  distance provided by fuel >= take(provided route_measures, distance)
+  distance provided by maintenance >= take(provided route_measures, distance)
+  rounds_used provided by maintenance >= take(provided route_measures, rounds_used)
+  buses_used provided by driver >= take(provided route_measures, buses_used)
+  monitor_buses provided by monitor >= take(provided route_measures, monitor_buses)
+  rounds_used provided by rounds >= take(provided route_measures, rounds_used)
 
   fleet_composition provided by fleet >= provided fleet_composition
-  buses_used provided by fleet >= (provided route_measures).buses_used
+  buses_used provided by fleet >= take(provided route_measures, buses_used)
 
   required total_cost >= (
     fuel_cost required by fuel +

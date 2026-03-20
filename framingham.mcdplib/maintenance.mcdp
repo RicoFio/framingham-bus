@@ -2,7 +2,7 @@ mcdp {
   implements `maintenance_interface
 
   required maintenance_cost >= (
-    (provided economic_parameters).maintenance_cost_per_km * provided distance +
-    (provided economic_parameters).maintenance_cost_per_round * provided rounds_used
+    (required economic_parameters).maintenance_cost_per_km * provided distance +
+    (required economic_parameters).maintenance_cost_per_round * provided rounds_used
   )
 }

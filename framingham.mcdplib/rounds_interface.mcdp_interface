@@ -1,5 +1,5 @@
 interface {
   provides rounds_used [Nat]
-  provides economic_parameters [`economic_parameters]
+  requires economic_parameters [`economic_parameters]
   requires round_penalty [USD]
 }

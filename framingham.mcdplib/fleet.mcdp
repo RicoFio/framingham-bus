@@ -19,9 +19,9 @@ mcdp {
   )
 
   required capital_cost >= (
-    (provided economic_parameters).capital_cost_dp_c * (provided fleet_composition).dp_c +
-    (provided economic_parameters).capital_cost_dp_b * (provided fleet_composition).dp_b +
-    (provided economic_parameters).capital_cost_dp_wc * (provided fleet_composition).dp_wc +
-    (provided economic_parameters).capital_cost_dp_bwc * (provided fleet_composition).dp_bwc
+    (required economic_parameters).capital_cost_dp_c * (provided fleet_composition).dp_c +
+    (required economic_parameters).capital_cost_dp_b * (provided fleet_composition).dp_b +
+    (required economic_parameters).capital_cost_dp_wc * (provided fleet_composition).dp_wc +
+    (required economic_parameters).capital_cost_dp_bwc * (provided fleet_composition).dp_bwc
   )
 }

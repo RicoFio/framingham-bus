@@ -3,6 +3,6 @@ mcdp {
 
   required monitors >= provided monitor_buses
   required monitor_cost >= (
-    (provided economic_parameters).monitor_cost_per_bus * provided monitor_buses
+    (required economic_parameters).monitor_cost_per_bus * provided monitor_buses
   )
 }

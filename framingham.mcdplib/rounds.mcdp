@@ -2,6 +2,6 @@ mcdp {
   implements `rounds_interface
 
   required round_penalty >= (
-    (provided economic_parameters).round_penalty_per_round * provided rounds_used
+    (required economic_parameters).round_penalty_per_round * provided rounds_used
   )
 }

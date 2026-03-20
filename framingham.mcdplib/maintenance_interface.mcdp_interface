@@ -1,6 +1,6 @@
 interface {
   provides distance [km]
   provides rounds_used [Nat]
-  provides economic_parameters [`economic_parameters]
+  requires economic_parameters [`economic_parameters]
   requires maintenance_cost [USD]
 }
