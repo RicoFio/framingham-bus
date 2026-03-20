@@ -1,8 +1,9 @@
 mcdp {
   implements `monitor_interface
 
-  required monitors >= provided monitor_buses
+  constant monitor_cost_per_bus = 20000 USD
+
   required monitor_cost >= (
-    (required economic_parameters).monitor_cost_per_bus * provided monitor_buses
+    monitor_cost_per_bus * provided monitor_buses
   )
 }

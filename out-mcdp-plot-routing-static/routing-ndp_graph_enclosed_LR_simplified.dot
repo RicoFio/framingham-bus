@@ -1,0 +1,118 @@
+digraph G { 
+
+                graph [fontname = "STIX Two Math"];
+                 node [fontname = "STIX Two Math"];
+                 edge [fontname = "STIX Two Math"];
+                rankdir=LR;    nodesep=0;    esep=0;
+   subgraph cluster1 {
+      fontsize="14";
+      width="0.35000000000000003";
+      height="0.35000000000000003";
+      penwidth="1.2249999999999999";
+      shape="box";
+      style="rounded";
+      label="";
+      node28 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node27 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node26 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node25 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node24 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node23 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node22 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node21 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node20 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node19 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node18 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node17 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node16 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node15 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="rounds"];
+   
+      node14 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="monitor"];
+   
+      node13 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="maintenance"];
+   
+      node12 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="fuel"];
+   
+      node11 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="fleet_bus_count"];
+   
+      node10 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="fleet"];
+   
+      node9 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label="driver"];
+   
+      node8 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",unused_="unused_",image="/tmp/mcdp_tmp_dir-root/resized/150/3b6792b6b27e3a2688248e15e5fbc178.png",imagescale="true",fixedsize="true",shape="none",label=""];
+   
+      node7 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+   
+      node6 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+      node5 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+   
+      node4 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+      node3 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+   
+      node2 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+   }
+
+   node29 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="distance\nSB(≥0) km",fontcolor="darkgreen"];
+
+   node30 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="rounds_used\nSB(≥0::1)",fontcolor="darkgreen"];
+
+   node31 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="monitor_buses\nSB(≥0::1)",fontcolor="darkgreen"];
+
+   node32 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="fleet_composition\n(SB([0,45]::1)\n × SB([0,17]::1)\n × SB({0, 1})\n × SB([0,9]::1))",fontcolor="darkgreen"];
+
+   node33 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="total_cost\nSB(≥0) USD",fontcolor="#861109"];
+
+   node34 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="emissions\nSB(≥0) kg",fontcolor="#861109"];
+
+   node28->node8 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="round_penalty\nSB(≥0::1) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node27->node8 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="monitor_cost\nSB(≥0::20000) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node26->node8 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="maintenance_cost\nSB(≥0) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node25->node8 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="fuel_cost\nSB(≥0) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node24->node9 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="buses_used\nSB(≥0::1)",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node23->node8 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="capital_cost\nSB([0,4330000]::10000) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node22->node8 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="driver_cost\nSB(≥0::50000) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node21->node15 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="rounds_used\nSB(≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node20->node13 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="rounds_used\nSB(≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node19->node11 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="fleet_composition\n(SB(≥0::1))⁴",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node18->node10 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="fleet_composition\n(SB([0,45]::1)\n × SB([0,17]::1)\n × SB({0, 1})\n × SB([0,9]::1))",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node17->node13 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="distance\nSB(≥0) km",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node16->node12 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="distance\nSB(≥0) km",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node15->node28 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="round_penalty\nSB(≥0::1) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node14->node27 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="monitor_cost\nSB(≥0::20000) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node13->node26 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="maintenance_cost\nSB(≥0) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node12->node25 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="fuel_cost\nSB(≥0) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node12->node34 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node11->node24 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="buses_used\nSB(≥0::1)",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node10->node23 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="capital_cost\nSB([0,4330000]::10000) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node9->node22 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="driver_cost\nSB(≥0::50000) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node8->node33 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node7->node20 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided rounds_used",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node7->node21 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided rounds_used",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node6->node7 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node5->node18 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided fleet_composition",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node5->node19 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided fleet_composition",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node4->node5 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node3->node16 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided distance",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node3->node17 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided distance",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node2->node3 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node29->node2 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node30->node6 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node31->node14 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node32->node4 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+}

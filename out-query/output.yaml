@@ -1,0 +1,6 @@
+optimistic:
+  minimals: frozenset({(Decimal('520123.000000000'),)})
+  pretty: ↑{⟨520123 USD⟩}
+pessimistic:
+  minimals: frozenset({(Decimal('520123.000000000'),)})
+  pretty: ↑{⟨520123 USD⟩}

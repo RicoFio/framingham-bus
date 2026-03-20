@@ -1,3 +1,13 @@
 interface {
-  provides economic_parameters [`economic_parameters]
+  provides fuel_cost_per_km [USD / km]
+  provides emissions_per_km [kg / km]
+  provides driver_cost_per_bus [USD]
+  provides monitor_cost_per_bus [USD]
+  provides round_penalty_per_round [USD]
+  provides maintenance_cost_per_km [USD / km]
+  provides maintenance_cost_per_round [USD]
+  provides capital_cost_dp_c [USD]
+  provides capital_cost_dp_b [USD]
+  provides capital_cost_dp_wc [USD]
+  provides capital_cost_dp_bwc [USD]
 }

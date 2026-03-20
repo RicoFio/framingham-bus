@@ -1,6 +1,5 @@
 mcdp {
   provides distance [km]
-  provides buses_used [Nat]
   provides rounds_used [Nat]
   provides monitor_buses [Nat]
   provides fleet_composition [`fleet_composition]
@@ -8,30 +7,22 @@ mcdp {
   requires total_cost [USD]
   requires emissions [kg]
 
-  sub economic_defaults = instance `economic_defaults
   sub fuel = instance `fuel
   sub driver = instance `driver
   sub monitor = instance `monitor
   sub rounds = instance `rounds
   sub maintenance = instance `maintenance
   sub fleet = instance `fleet
-
-  economic_parameters required by fuel <= economic_parameters provided by economic_defaults
-  economic_parameters required by driver <= economic_parameters provided by economic_defaults
-  economic_parameters required by monitor <= economic_parameters provided by economic_defaults
-  economic_parameters required by rounds <= economic_parameters provided by economic_defaults
-  economic_parameters required by maintenance <= economic_parameters provided by economic_defaults
-  economic_parameters required by fleet <= economic_parameters provided by economic_defaults
-
+  sub fleet_bus_count = instance `fleet_bus_count
   distance provided by fuel >= provided distance
   distance provided by maintenance >= provided distance
   rounds_used provided by maintenance >= provided rounds_used
-  buses_used provided by driver >= provided buses_used
   monitor_buses provided by monitor >= provided monitor_buses
   rounds_used provided by rounds >= provided rounds_used
 
   fleet_composition provided by fleet >= provided fleet_composition
-  buses_used provided by fleet >= provided buses_used
+  fleet_composition provided by fleet_bus_count >= provided fleet_composition
+  buses_used provided by driver >= buses_used required by fleet_bus_count
 
   required total_cost >= (
     fuel_cost required by fuel +

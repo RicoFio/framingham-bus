@@ -1,0 +1,14 @@
+title: Simple Routing Query
+description: Basic example query for the main routing model.
+model: "`routing"
+query:
+  query_type: FixFunMinRes
+  min_f:
+    distance: "100 km"
+    rounds_used: "8"
+    monitor_buses: "1"
+    fleet_composition: "<5, 0, 0, 0>"
+  max_r:
+    total_cost: "10000000 USD"
+    emissions: "100000 kg"
+  optimize_for: [total_cost]

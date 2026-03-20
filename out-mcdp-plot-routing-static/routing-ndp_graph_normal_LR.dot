@@ -1,0 +1,301 @@
+digraph G { 
+
+                graph [fontname = "STIX Two Math"];
+                 node [fontname = "STIX Two Math"];
+                 edge [fontname = "STIX Two Math"];
+                rankdir=LR;    nodesep=0;    esep=0;
+   node1 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+
+   node2 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+
+   node3 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+
+   node4 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+
+   node5 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+
+   node6 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+
+   node7 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",unused_="unused_",image="/tmp/mcdp_tmp_dir-root/resized/150/3b6792b6b27e3a2688248e15e5fbc178.png",imagescale="true",fixedsize="true",shape="none",label=""];
+
+   subgraph cluster8 {
+      fontsize="14";
+      width="0.35000000000000003";
+      height="0.35000000000000003";
+      penwidth="1.2249999999999999";
+      shape="box";
+      style="rounded";
+      label="driver";
+      node9 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 50000 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+   }
+
+   subgraph cluster10 {
+      fontsize="14";
+      width="0.35000000000000003";
+      height="0.35000000000000003";
+      penwidth="1.2249999999999999";
+      shape="box";
+      style="rounded";
+      label="fleet";
+      node36 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node35 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node34 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node33 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node32 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node31 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node30 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node29 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node28 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node27 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node26 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node25 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node24 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",unused_="unused_",image="/tmp/mcdp_tmp_dir-root/resized/150/3b6792b6b27e3a2688248e15e5fbc178.png",imagescale="true",fixedsize="true",shape="none",label=""];
+   
+      node23 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 90000 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+      node22 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 80000 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+      node21 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 70000 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+      node20 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 50000 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+      node19 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",color="black",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ 9>];
+   
+      node18 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",color="black",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ 1>];
+   
+      node17 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",color="black",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ 17>];
+   
+      node16 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",color="black",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ 45>];
+   
+      node15 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+   
+      node14 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+   
+      node13 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+   
+      node12 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+   
+      node11 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+   }
+
+   subgraph cluster37 {
+      fontsize="14";
+      width="0.35000000000000003";
+      height="0.35000000000000003";
+      penwidth="1.2249999999999999";
+      shape="box";
+      style="rounded";
+      label="fleet_bus_count";
+      node43 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node42 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node41 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node40 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node39 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",unused_="unused_",image="/tmp/mcdp_tmp_dir-root/resized/150/3b6792b6b27e3a2688248e15e5fbc178.png",imagescale="true",fixedsize="true",shape="none",label=""];
+   
+      node38 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+   }
+
+   subgraph cluster44 {
+      fontsize="14";
+      width="0.35000000000000003";
+      height="0.35000000000000003";
+      penwidth="1.2249999999999999";
+      shape="box";
+      style="rounded";
+      label="fuel";
+      node50 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node49 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node48 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 1.2 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+      node47 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 0.6 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+      node46 [fontsize="14",width="0.1",height="0.35000000000000003",penwidth="1.2249999999999999",style="filled",shape="point",color="red",fillcolor="black",label=""];
+   
+      node45 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+   }
+
+   subgraph cluster51 {
+      fontsize="14";
+      width="0.35000000000000003";
+      height="0.35000000000000003";
+      penwidth="1.2249999999999999";
+      shape="box";
+      style="rounded";
+      label="maintenance";
+      node56 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node55 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+   
+      node54 [fontsize="14",width="0.35000000000000003",height="0.7000000000000001",penwidth="1.2249999999999999",unused_="unused_",image="/tmp/mcdp_tmp_dir-root/resized/150/3b6792b6b27e3a2688248e15e5fbc178.png",imagescale="true",fixedsize="true",shape="none",label=""];
+   
+      node53 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 5 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+      node52 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 0.15 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+   }
+
+   subgraph cluster57 {
+      fontsize="14";
+      width="0.35000000000000003";
+      height="0.35000000000000003";
+      penwidth="1.2249999999999999";
+      shape="box";
+      style="rounded";
+      label="monitor";
+      node58 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ⋅ 20000 ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+   }
+
+   subgraph cluster59 {
+      fontsize="14";
+      width="0.35000000000000003";
+      height="0.35000000000000003";
+      penwidth="1.2249999999999999";
+      shape="box";
+      style="rounded";
+      label="rounds";
+      node60 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="box",style="rounded",label=<<FONT COLOR='darkgreen'>f</FONT> ≤ <FONT COLOR='#861109'>r</FONT>>];
+   
+   }
+
+   node61 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node62 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node63 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node64 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node65 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node66 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node67 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node68 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node69 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node70 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node71 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node72 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node73 [fontsize="14",width="0.35000000000000003",height="0.525",penwidth="1.2249999999999999",shape="plaintext",image="/tmp/mcdp_tmp_dir-root/resized/150/1adf73162431f7111c2e393564893cbc.png",imagescale="true",fixedsize="true",label=""];
+
+   node74 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="distance\nSB(≥0) km",fontcolor="darkgreen"];
+
+   node75 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="rounds_used\nSB(≥0::1)",fontcolor="darkgreen"];
+
+   node76 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="monitor_buses\nSB(≥0::1)",fontcolor="darkgreen"];
+
+   node77 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="fleet_composition\n(SB([0,45]::1)\n × SB([0,17]::1)\n × SB({0, 1})\n × SB([0,9]::1))",fontcolor="darkgreen"];
+
+   node78 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="total_cost\nSB(≥0) USD",fontcolor="#861109"];
+
+   node79 [fontsize="14",width="0.35000000000000003",height="0.35000000000000003",penwidth="1.2249999999999999",shape="none",label="emissions\nSB(≥0) kg",fontcolor="#861109"];
+
+   node1->node2 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node60->node73 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="round_penalty\nSB(≥0::1) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node58->node72 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="monitor_cost\nSB(≥0::20000) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node56->node54 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB(≥0::5) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node55->node54 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB(≥0) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node54->node71 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="maintenance_cost\nSB(≥0) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node53->node56 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB(≥0::5) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node52->node55 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB(≥0) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node50->node48 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB(≥0) km",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node49->node47 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB(≥0) km",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node48->node79 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node47->node70 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="fuel_cost\nSB(≥0) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node46->node49 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided distance",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node46->node50 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided distance",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node45->node46 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node43->node39 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_wc : SB(≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node42->node39 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_c : SB(≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node41->node39 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_bwc : SB(≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node40->node39 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_b : SB(≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node39->node69 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="buses_used\nSB(≥0::1)",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node38->node40 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_b : SB(≥0::1)",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node38->node41 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_bwc : SB(≥0::1)",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node38->node42 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_c : SB(≥0::1)",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node38->node43 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_wc : SB(≥0::1)",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node36->node24 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB([0,810000]::90000) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node35->node24 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB({0, 80000}) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node34->node24 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB([0,1190000]::70000) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node33->node24 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB([0,2250000]::50000) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node32->node22 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB({0, 1})",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node31->node18 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="{1}",weight="0",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node30->node20 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB([0,45]::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node29->node16 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="{45}",weight="0",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node28->node23 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB([0,9]::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node27->node19 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="{9}",weight="0",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node26->node21 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB([0,17]::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node25->node17 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="{17}",weight="0",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node24->node68 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="capital_cost\nSB([0,4330000]::10000) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node23->node36 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB([0,810000]::90000) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node22->node35 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB({0, 80000}) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node21->node34 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB([0,1190000]::70000) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node20->node33 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="SB([0,2250000]::50000) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node15->node27 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_bwc : SB([0,9]::1)",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node15->node28 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_bwc : SB([0,9]::1)",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node14->node31 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_wc : SB({0, 1})",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node14->node32 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_wc : SB({0, 1})",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node13->node25 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_b : SB([0,17]::1)",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node13->node26 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_b : SB([0,17]::1)",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node12->node29 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_c : SB([0,45]::1)",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node12->node30 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="dp_c : SB([0,45]::1)",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node11->node12 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node11->node13 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node11->node14 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node11->node15 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node9->node67 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="driver_cost\nSB(≥0::50000) USD",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node2->node61 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided distance",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node2->node62 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided distance",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node3->node4 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node4->node63 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided fleet_composition",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node4->node64 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided fleet_composition",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node5->node6 [fontsize="14",penwidth="1.75",arrowsize="0.525",dir="both",constraint="false",weight="0",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",style="dashed"];
+   node6->node65 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided rounds_used",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node6->node66 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="provided rounds_used",weight="0.5",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node7->node78 [fontsize="14",penwidth="1.75",arrowsize="0.525",fontcolor="#861109",color="#861109",arrowtail="dot",arrowhead="none",dir="both",style="dashed"];
+   node61->node45 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="distance\nSB(≥0) km",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node62->node52 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="distance\nSB(≥0) km",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node63->node11 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="fleet_composition\n(SB([0,45]::1)\n × SB([0,17]::1)\n × SB({0, 1})\n × SB([0,9]::1))",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node64->node38 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="fleet_composition\n(SB(≥0::1))⁴",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node65->node53 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="rounds_used\nSB(≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node66->node60 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="rounds_used\nSB(≥0::1)",weight="0.5",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node67->node7 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="driver_cost\nSB(≥0::50000) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node68->node7 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="capital_cost\nSB([0,4330000]::10000) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node69->node9 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="buses_used\nSB(≥0::1)",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node70->node7 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="fuel_cost\nSB(≥0) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node71->node7 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="maintenance_cost\nSB(≥0) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node72->node7 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="monitor_cost\nSB(≥0::20000) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node73->node7 [fontsize="14",penwidth="1.75",arrowsize="0.525",label="round_penalty\nSB(≥0::1) USD",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node74->node1 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node75->node5 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node76->node58 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+   node77->node3 [fontsize="14",penwidth="1.75",arrowsize="0.525",color="darkgreen",fontcolor="darkgreen",arrowhead="box",arrowtail="none",dir="both"];
+}
